@@ -25,8 +25,6 @@ assert_non_empty() {
 
 assert_non_empty inputs.repository "$REPOSITORY"
 assert_non_empty inputs.gpg_private_key "$GPG_PRIVATE_KEY"
-assert_non_empty inputs.gpg_passphrase "$GPG_PASSPHRASE"
-assert_non_empty inputs.tarball "$TARBALL"
 assert_non_empty inputs.deb_email "$DEB_EMAIL"
 assert_non_empty inputs.deb_fullname "$DEB_FULLNAME"
 
